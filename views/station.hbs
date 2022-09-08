@@ -1,0 +1,124 @@
+{{> menu }}
+
+<section class="ui center aligned middle aligned segment">
+  
+  
+  <section class="ui segment">
+    <div class="ui five doubling cards">
+        <div class="ui inverted card">
+            <div class="extra content">
+          <span class="right floated">
+            <i class="huge icons">
+              <i class="red map marker icon"></i>
+            </i>
+          </span>
+                <div class="header">
+                    <h3>{{station.name}}</h3>
+                  <span class="left floated">
+                    <p>
+                      
+                    
+                    Lat: {{station.latitude}}<br>
+                    Lng: {{station.longitude}}</p>
+                  </span>
+                </div>
+
+            </div>
+        </div>
+        <div class="ui inverted card">
+            <div class="extra content">
+          <span class="right floated">
+            <i class="huge icons">
+              <i class="{{stationSummary.latestWeatherIcon}}"></i>
+            </i>
+          </span>
+                <div class="header">
+                    <h3>Weather</h3>
+                </div>
+                <p></p>
+                <p>{{stationSummary.latestWeather}}</p>
+            </div>
+        </div>
+        <div class="ui inverted card">
+            <div class="extra content">
+          <span class="right floated">
+            <i class="huge icons">
+              <i class="yellow high temperature icon"></i>
+            </i>
+          </span>
+
+                <div class="header">
+
+                    <h3>Temperature</h3>
+                </div>
+                <p></p>
+                <p>
+<span class="left floated">
+                    {{stationSummary.latestTempC}} °C
+                    <br>
+                    {{stationSummary.latestTempF}} °F
+                    <br>
+                  Max: {{stationSummary.maxTemperature}}
+                    <br>
+               Min: {{stationSummary.minTemperature}}
+                  </span> 
+               
+                </p>
+            </div>
+
+        </div>
+        <div class="ui inverted card">
+            <div class="extra content">
+          <span class="right floated">
+            <i class="huge icons">
+              <i class="teal wind icon"></i>
+            </i>
+          </span>
+                <div class="header">
+                    <h3>Wind</h3>
+                </div>
+                <p></p>
+                <p>
+<span class="left floated">
+                    Bft: {{stationSummary.latestBeaufort}}<br>
+                    {{stationSummary.latestWindCompass}}<br>
+                    Feels like: {{stationSummary.latestWindChill}} °C
+                  <br>
+                  Max: {{stationSummary.maxWindSpeed}}
+                    <br>
+               Min: {{stationSummary.minWindSpeed}}
+                  </span>
+                </p>
+            </div>
+        </div>
+        <div class="ui inverted card">
+            <div class="extra content">
+          <span class="right floated">
+            <i class="huge icons">
+              <i class="blue tachometer alternate icon"></i>
+            </i>
+          </span>
+                <div class="header">
+                  
+                    <h3>Pressure</h3>
+                </div>
+                <p></p>
+                <p>
+                  <span class="left floated">
+                    {{stationSummary.latestPressure}} Hpa
+                  <br>
+                  Max: {{stationSummary.maxPressure}}
+                    <br>
+               Min: {{stationSummary.minPressure}}
+                  </span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+  </section>
+<section>
+  {{> listreadings}}
+  {{> addreading}}
+    
+</section>

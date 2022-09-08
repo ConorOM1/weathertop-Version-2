@@ -1,0 +1,96 @@
+{
+  "stationCollection": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "id": "6750d6b0-26c4-11ed-bfa9-e3b1664e8c7d",
+      "name": "Bundoran",
+      "readings": []
+    },
+    {
+      "id": "687b1fb0-26e1-11ed-926a-11947ceb6316",
+      "name": "Achill",
+      "readings": []
+    },
+    {
+      "id": "8d85f550-26eb-11ed-baad-6b7d501d99b8",
+      "userid": "4fe02ad0-26c4-11ed-bfa9-e3b1664e8c7d",
+      "latitude": "53.09",
+      "longitude": "10.01",
+      "name": "Achill",
+      "readings": [
+        {
+          "id": "95916fe0-26eb-11ed-baad-6b7d501d99b8",
+          "code": "500",
+          "temperature": "11",
+          "windSpeed": "5",
+          "pressure": "1000",
+          "windDirection": "45"
+        }
+      ]
+    },
+    {
+      "id": "bbbb0780-26eb-11ed-baad-6b7d501d99b8",
+      "userid": "e69c0db0-26e0-11ed-926a-11947ceb6316",
+      "latitude": "54.47",
+      "longitude": "8.27",
+      "name": "Bundoran",
+      "readings": [
+        {
+          "id": "c63b2b90-26eb-11ed-baad-6b7d501d99b8",
+          "code": "600",
+          "temperature": "10",
+          "windSpeed": "25",
+          "pressure": "999",
+          "windDirection": "80"
+        }
+      ]
+    },
+    {
+      "id": "92f23e80-26ec-11ed-baad-6b7d501d99b8",
+      "userid": "e69c0db0-26e0-11ed-926a-11947ceb6316",
+      "latitude": "52.16",
+      "longitude": "7.14",
+      "name": "Tramore",
+      "readings": [
+        {
+          "id": "9f267b30-26ec-11ed-baad-6b7d501d99b8",
+          "code": "200",
+          "temperature": "2",
+          "windSpeed": "5",
+          "pressure": "1000",
+          "windDirection": "95"
+        }
+      ]
+    },
+    {
+      "id": "892d5eb0-26ed-11ed-baad-6b7d501d99b8",
+      "userid": "4fe02ad0-26c4-11ed-bfa9-e3b1664e8c7d",
+      "latitude": "52.93",
+      "longitude": "6.02",
+      "name": "Magheramore",
+      "readings": [
+        {
+          "id": "a7558de0-26ed-11ed-baad-6b7d501d99b8",
+          "code": "300",
+          "temperature": "15",
+          "windSpeed": "33",
+          "pressure": "1001",
+          "windDirection": "10"
+        }
+      ]
+    }
+  ]
+}
